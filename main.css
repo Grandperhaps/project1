@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    width: 95%;
+    margin: auto;
+}
+
+.header {
+    background: url('images/starfield-banner.jpg ');
+    position: fixed;
+    width: 95%;
+}
+
+.header .logo-link {
+    padding: 10px;
+}
+
+.header .logo {
+    width:110px;
+    margin:11px;
+    display: inline-block;
+}
+
+
+.ulOne{
+    /*margin-left: 200px;*/
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -120px;
+    /*position: relative;*/
+    /*float: left;*/
+    /*top: -100px;*/
+    /*left: 200px;*/
+}
+.secs{
+    margin-top: -5px;
+    font-size: 12px;
+}
+ul li{
+    display: inline-block;
+    color: white;
+}
+.direction{
+    border-right: solid 2px lightgrey;
+    padding: 5px 8px 5px 5px;
+}
+.directionOne{
+    background: darkgrey;
+    padding: 10px;
+    margin: 0 -3px;
+}
+
+
+.Search{
+    background: #2d2d2d url("images/search.svg") no-repeat;
+    padding-left: 30px;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    border: 0;
+    position: relative;
+    float: right;
+    top: -100px;
+}
+.Share{
+    position: relative;
+    float: right;
+    width: 22px;
+    height: 22px;
+    top: -99px;
+    right: -215px;
+}
+
+
+.pics{
+    float: left;
+    margin: 10px;
+    z-index: -1;
+    position: relative;
+}
+
+.foot1{
+    background: rgba(28, 61, 101, 0.98);
+    color: #FFFFFF;
+    width: 98%;
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px 0;
+}
+.foot1:hover{
+    background: #000061;
+}
+.ulTwo{
+    margin-left: 430px;
+    font-size: 14px;
+    padding-bottom: 60px;
+}
+.ulTwo li{
+    color: rgba(28,61,101,0.98);
+}
+
+
+.write1{
+    position:absolute;
+    bottom: 30px;
+    left: 0;
+    font-size: 12px;
+    color: #FFFFFF;
+    background:#3062a4;
+    padding: 3px
+}
+.write2{
+    position:absolute;
+    bottom: 10px;
+    left: 0;
+    font-size: 12px;
+    color: #FFFFFF;
+    background: rgba(133, 133, 133, 0.82);
+    width: 637px;
+    padding: 2px;
+}
+
+
+.picOne{
+    height: 320px;
+}
